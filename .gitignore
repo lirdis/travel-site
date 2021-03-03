@@ -9,6 +9,7 @@
 *.vi
 *~
 *.sass-cache
+*.bak
 node_modules/
 .tmp/
 
