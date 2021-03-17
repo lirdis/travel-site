@@ -11,29 +11,66 @@
   }
 
   &__title{
-    font-size:4.8rem;
+    font-size:1.1rem;
     font-weight: 300;
     color: $mainBlue;
     margin: 0;
     
+    @mixin atSmall{
+      font-size:2rem;
+    }
+
+    @mixin atMedium{
+      font-size:3.2rem;
+    }
+
+    @mixin atLarge{
+      font-size:4.8rem;
+    }
+      
   }
 
   &__subtitle{
-    font-size:2.9rem;
+    font-size:1rem;
     font-weight: 300;
     color: $mainBlue;
     margin: 0;
+
+    @mixin atSmall{
+      font-size:1.6rem;
+    }
+  
+    @mixin atMedium{
+      font-size:2.2rem;
+    }
+  
+    @mixin atLarge{
+      font-size:2.9rem;
+    }
   }
+ 
 
   &__description{
     color:white;
     font-weight: 100;
-    font-size:1.875rem;
+    font-size:1.3rem;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-    width: 30rem;
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
+
+    @mixin atSmall{
+      font-size:1.5rem;
+      width: 22rem;
+    }
+  
+    @mixin atMedium{
+      font-size:1.875rem;
+      width: 30rem;
+    }
   }
+
+
 }
 
 
